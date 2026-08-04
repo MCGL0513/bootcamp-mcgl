@@ -1,0 +1,74 @@
+input,
+button,
+a,
+p,
+li {
+  font-size: 1rem;
+}
+
+/* Validación */
+
+input:required:invalid {
+  border: 2px solid red;
+}
+
+input:required:valid {
+  border: 2px solid green;
+}
+
+input:required:invalid + span::after {
+  content: " Dato incorrecto";
+  color: red;
+}
+
+input:required:valid + span::after {
+  content: " Correcto";
+  color: green;
+}
+
+/* Estados del enlace */
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+
+/* Términos y condiciones */
+
+#terms-and-conditions {
+  max-width: 120ch;
+  text-align: center;
+}
+
+#terms-and-conditions:target {
+  background-color: #deebff;
+}
+
+#terms-and-conditions p:first-of-type {
+  color: #0747a6;
+}
+
+/* Lista */
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "★ ";
+}
+
+li:nth-child(odd)::before {
+  color: #5e6c84;
+}
