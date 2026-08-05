@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* inicio */
+.inicio {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: #6e6e73;
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Base */
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  background-color: #ffffff;
+  color: #1d1d1f;
+  line-height: 1.6;
+}
+
+/* Contenedor del artículo */
+.news-article {
+  max-width: 760px;
+  margin: 64px auto;
+  padding: 0 20px;
+}
+
+/* Título */
+.headline {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+/* Texto debajo del titulo */
+.textotitulo {
+  font-size: 1.65rem;
+  margin-bottom: 24px;
+  line-height: 1.1;
+}
+
+/* subtitulo 1 */
+.subtitulo1 {
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+  line-height: 4;
+}
+
+/* imagen */
+.imgbelieve {
+  width: 725px;
+  display: flex;
+  justify-content: center;
+}
+
+/* mensaje imagen*/
+.mimagen {
+  font-size: 0.75rem;
+  margin-bottom: 24px;
+  color: #6e6e73;
+  font-weight: 600;
+}
+
+/* inicio parrafo*/
+.iparrafo {
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+}
+
+/* subtitulo 2 */
+.subtitulo2 {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  line-height: 2.2;
+}
+
+/* ultima nota sub */
+.subtitulo3 {
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+  line-height: 0.8;
+}
+
+/* ultima nota */
+.note {
+  font-size: 0.8rem;
+  margin-bottom: 24px;
+  color: #6e6e73;
+}
+
+/* Sección Press Contacts */
+.press-contacts {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #d2d2d7;
+}
+
+.press-contacts h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
